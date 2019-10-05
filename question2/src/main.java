@@ -7,5 +7,6 @@ public class main {
         String str=s.nextLine();
         System.out.println("enter index for substring");
         int index=Integer.parseInt(s.nextLine());
+        System.out.println(str.substring(index));
     }
 }
