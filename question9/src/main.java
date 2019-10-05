@@ -10,6 +10,10 @@ public class main {
         byte chLower[]=lower.getBytes();
         int low=0;
         int up=0;
-
+        for (int i = 0; i <str.length() ; i++) {
+            low=low+chLower[i];
+            up=up+chUpper[i];
+        }
+        System.out.println("absolute weight = "+(low-up));
     }
 }
