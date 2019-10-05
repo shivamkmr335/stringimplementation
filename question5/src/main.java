@@ -9,6 +9,7 @@ public class main {
         String substr=s.nextLine();
         System.out.println("enter string  to be added to given string");
         String repstr=s.nextLine();
-
+        String str=basestr.replaceAll(substr,repstr);
+        System.out.println(str);
     }
 }
